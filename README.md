@@ -51,5 +51,16 @@ Code structure:
         - function that assigns either X or O to the computer
         - function that selects the best legal move, and then plays it
 
-    
-    
+Helper functions:
+    gameBoard.render:
+        - Renders the board state
+        steps:
+            - Loop through every item in gameBoard object
+            - For each item:
+                - Get square node corresponding with item
+                - Check if value of item != null
+                - Check if square node doesn't have a child node
+                - If both are true, add X or O node as a child node to square node.
+    CurrentPlayer:
+        - Variable that is either X or O. Represents the player whos turn it currently is.
+        - Switches between X and O every time a turn is played.

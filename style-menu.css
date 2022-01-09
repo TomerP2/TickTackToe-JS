@@ -1,0 +1,166 @@
+.menu-background-shape {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+#shape-1 {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 250px solid rgba(255, 0, 229, 0.19);
+    position: absolute;
+    transform: rotate(350deg);
+    top: 243.75px;
+    left: 576px;
+}
+
+#shape-2 {
+    width: 0;
+    height: 0;
+    border-left: 195px solid transparent;
+    border-right: 450px solid transparent;
+    border-bottom: 130px solid rgba(255, 0, 229, 0.19);
+    position: absolute;
+    transform: rotate(24deg);
+    top: 495px;
+    left: 861px
+}
+
+#title-box {
+    position: absolute;
+    width: 164px;
+    height: 182px;
+    top: 32%
+}
+
+.title-text {
+    font-family: Bungee Outline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+}
+
+#red {
+    color: #FF0000;
+}
+
+#blue {
+    color: #0057D9;
+}
+
+#grey {
+    color: #0C2E00;
+}
+
+.menu-button {
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    font-family: Bungee Outline;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+#one-player-button {
+    background: rgba(224, 0, 0, 0.19);
+    top: 45%;
+    left: 35%;
+}
+
+#one-player-text {
+    color: #FF0000;
+}
+
+#two-players-button {
+    background: rgba(18, 0, 227, 0.19);
+    top: 45%;
+    left: 51%;
+}
+
+#two-players-text {
+    color: #0500EE;
+}
+
+#menu-x {
+    position: absolute;
+    transform: scale(0.6);
+    top: 27%;
+    left: 39.5%;
+}
+
+#menu-o {
+    position: absolute;
+    transform: scale(0.6);
+    top: 37%;
+    left: 35.5%;
+}
+
+
+/* Difficulty buttons */
+
+.difficulty-button {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difficulty-text {
+    font-family: Bungee Outline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+#easy-button {
+    background: rgba(0, 223, 62, 0.19);
+    left: 34%;
+    top: 49%;
+}
+
+#average-button {
+    background: rgba(4, 0, 221, 0.19);
+    left: 42%;
+    top: 60%;
+}
+
+#average-text {
+    color: #0501CD;
+}
+
+#hard-button {
+    background: rgba(234, 152, 28, 0.35);
+    left: 51.2%;
+    top: 54%;
+}
+
+#hard-text {
+    color: #FF0000;
+}
+
+#impossible-button {
+    background: rgba(224, 0, 0, 0.39);
+    left: 59%;
+    top: 65%;
+}
+
+#impossible-text {
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+/* --- Background shapes --- */
+
+.background-shape {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#menu-circle {
+    width: 265px;
+    height: 265px;
+    background: rgba(73, 213, 8, 0.24);
+    top: 24%;
+    left: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-text {
+    width: 121.63px;
+    height: 37px;
+    font-family: Bungee Outline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #3700D3;
+    transform: rotate(11.75deg);
+}
+
+#middle-circle {
+    width: 430px;
+    height: 430px;
+    background: linear-gradient(180deg, #DC43AD 0%, rgba(255, 232, 248, 0) 100%);
+}
+
+#right-circle {
+    width: 265px;
+    height: 265px;
+    background: rgba(8, 127, 213, 0.24);
+    top: 15%;
+    left: 53%;
+}
+
+#someone-won-text {
+    position: absolute;
+    width: 313px;
+    height: 92px;
+    font-family: 'Bungee Outline', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    top: 42%;
+    left: 43%;
+}
+
+#play-again-circle {
+    width: 265px;
+    height: 265px;
+    background: rgba(213, 8, 155, 0.24);
+    top: 55%;
+    left: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play-again-text {
+    width: 220px;
+    height: 37px;
+    font-family: Bungee Outline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    transform: rotate(-8.64deg);
+}

@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+#grid {
+    width: 39vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(8, 127, 213, 0.24);
+}
+
+.grid-square {
+    box-sizing: border-box;
+    width: 32.98%;
+    height: 33%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
